@@ -1,0 +1,6 @@
+nohup: ignoring input
+/home/suhangwu/anaconda3/envs/py36/lib/python3.6/site-packages/transformers/tokenization_utils_base.py:1656: FutureWarning: Calling BertTokenizer.from_pretrained() with the path to a single file or url is deprecated and won't be possible anymore in v5. Use a model identifier or the path to a directory instead.
+  FutureWarning,
+/mnt/sdb/suhangwu/bert_sentiment_classification/test.py:63: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  probs = F.softmax(out_put).detach().cpu().numpy().tolist()
+predict_Accuracy : 72.60338902713592 %
